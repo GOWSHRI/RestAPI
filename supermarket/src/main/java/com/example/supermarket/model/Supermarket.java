@@ -12,39 +12,39 @@ public class Supermarket {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     long userId;
-    String userName;
-    String emailAddress;
-    String password;
-    String confirmPassword;
+    String fruits;
+    String vegetable;
+    String cleaningandhousehold;
+    String snacks;
     public long getUserId() {
         return userId;
     }
     public void setUserId(long userId) {
         this.userId = userId;
     }
-    public String getUserName() {
-        return userName;
+    public String getFruits() {
+        return fruits;
     }
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setFruits(String fruits) {
+        this.fruits = fruits;
     }
-    public String getEmailAddress() {
-        return emailAddress;
+    public String getvegetable() {
+        return vegetable;
     }
-    public void setEmailAddress(String emailAddress) {
-        this.emailAddress = emailAddress;
+    public void setVegetable(String vegetable) {
+        this.vegetable = vegetable;
     }
-    public String getPassword() {
-        return password;
+    public String getcleaningandhousehold() {
+        return cleaningandhousehold;
     }
-    public void setPassword(String password) {
-        this.password = password;
+    public void setCleaningandhousehold(String cleaningandhousehold) {
+        this.cleaningandhousehold = cleaningandhousehold;
     }
-    public String getConfirmPassword() {
-        return confirmPassword;
+    public String getsnacks() {
+        return snacks;
     }
-    public void setConfirmPassword(String confirmPassword) {
-        this.confirmPassword = confirmPassword;
+    public void setSnacks(String snacks) {
+        this.snacks = snacks;
     }
     
 }
